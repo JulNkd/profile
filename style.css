@@ -1,0 +1,113 @@
+body {
+  background-color: #F4F4F6;
+  font-family: Roboto;
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #120D31;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: auto;
+  color: #143109;
+  text-align: center;
+}
+
+a {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: #120D31
+}
+
+.container {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#img-circle{
+  border-radius: 50%;
+  width: 200px;
+}
+
+#btn-blue {
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-color: #0C60B8;
+  color: white;
+}
+
+#btn-blue:hover {
+  background-color: #120D31;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.fa-brands {
+  font-size: 50px;
+  color:#0C60B8;
+  padding-left: 0;
+}
+
+.fa-brands:hover {
+  color: #120D31;
+}
+
+@media (max-width:960px) {
+  .container {
+    width: 700px;
+  }
+  .card{
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container{
+    width: 500px;
+  }
+  .card{
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container{
+    width: 300px;
+  }
+  .card{
+    width: 300px;
+  }
+}
